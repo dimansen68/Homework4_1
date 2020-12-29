@@ -7,16 +7,16 @@ public class Main {
       public void toLeft() {}
       1.Пройти с 1-ой до последней строки
      */
-        int[][] mas = new int[3][3];
+        int[][] mas = new int[10][10];
         int i, j, k = 0;
-        for (i = 0; i < 3; i++)
-            for (j = 0; j < 3; j++) {
+        for (i = 0; i < 10; i++)
+            for (j = 0; j < 10; j++) {
                 mas[i][j] = k;
                 k++;
             }
         ;
-        for (i = 0; i < 3; i++) {
-            for (j = 0; j < 3; j++)
+        for (i = 0; i < 10; i++) {
+            for (j = 0; j < 10; j++)
                 System.out.print(mas[i][j] + " ");
 
             ;
